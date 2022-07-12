@@ -455,7 +455,7 @@ body{
     font-size: 20px;
   }
   .header__logo{
-    padding-top: 30px;
+    padding-top: 34px;
   }
   .main__text{
     font-size: 15px;
@@ -463,6 +463,29 @@ body{
   }
 
 
+}
+@media screen and (max-height: 667px) { 
+  .header__subtitle {
+    
+    line-height: 28px;
+  }
+  .header__text {
+    
+    padding-bottom: 20px;
+    
+}
+canvas{
+  height: 250px;
+  
+}
+.main__text{
+  line-height: 23px;
+}
+.bucket-labels > div {
+  /* z-index: 10; */
+  margin-top: 46px;
+ 
+}
 }
 
 
