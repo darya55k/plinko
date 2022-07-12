@@ -140,7 +140,7 @@ body {
     /* background-position: right; */
     display: block;
     min-width: 360px;
-    min-width: 500px;
+    
     
 }
 .main{
@@ -421,10 +421,17 @@ canvas{
     width: 577px;
 }
 @media screen and (max-width: 610px) { 
-
+body{
+  background-image: url(../images/MOBILE.png);
+}
   canvas { 
     width: 480px;
   }
+    .bucket-labels > div {
+      
+      min-width: 24.5px;
+      
+}
 }
 @media screen and (max-width: 510px) { 
 
@@ -438,6 +445,23 @@ canvas{
   .main__background_first{
     top: 30%;
   }
+  canvas { 
+    width: 330px;
+  }
+  .header__title{
+    font-size: 30px;
+  }
+  .header__subtitle{
+    font-size: 20px;
+  }
+  .header__logo{
+    padding-top: 30px;
+  }
+  .main__text{
+    font-size: 15px;
+    padding-top: 24px;
+  }
+
 
 }
 
