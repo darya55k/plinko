@@ -361,6 +361,7 @@ color: #FFFFFF;
   .popup__content { 
 
       min-width: 282px; 
+      max-width: 350px;
 
   } 
 
@@ -444,6 +445,7 @@ body{
   }
   .main__background_first{
     top: 30%;
+    right: 0vw;
   }
   canvas { 
     width: 330px;
