@@ -289,7 +289,7 @@ font-size: 24px;
 line-height: 29px;
 text-align: center;
 text-transform: uppercase;
-
+animation: rotate 1.4s linear infinite;
 color: #FFFFFF;
 }
 .main__text{
@@ -344,7 +344,8 @@ color: #FFFFFF;
 
   padding-bottom: 37px; 
 
-  background-color: darksalmon; 
+  background-image: url(../images/bg-popup.png);
+  background-repeat: no-repeat;
 
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15); 
 
@@ -353,8 +354,19 @@ color: #FFFFFF;
   z-index: 1; 
 
   position: relative; 
+  border: 6px solid rgba(20, 100, 219, .6);
 
 } 
+.form__heading{
+  padding-top: 85px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
 
 @media screen and (max-width: 1279px) { 
 
@@ -366,35 +378,66 @@ color: #FFFFFF;
   } 
 
 } 
-.form__button { 
+.popup__overlay{ 
 
-  width: 100%; 
+  position: absolute; 
 
-  height: 50px; 
+  left: 0; 
 
-  color: white; 
+  right: 0; 
 
-  background-color: black; 
+  bottom: 0; 
 
-  font-family: Inter, Arial, sans-serif; 
+  top:0; 
 
-  font-style: normal; 
+  background: rgba(0, 0, 0, 0.4);
+backdrop-filter: blur(15px);
 
-  font-weight: normal; 
-
-  font-size: 18px; 
-
-  line-height: 22px; 
-
-  text-align: center; 
-
-  padding: 0; 
-
-  border-width: 0; 
-
-  cursor: pointer; 
+   
 
 } 
+.form__button { 
+  width: 74%;
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  color: white;
+  /* background-color: black; */
+  font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 29px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+  text-align: center;
+  padding: 0;
+  background-color: #E60E35;
+  border-radius: 10px;
+  border-width: 0;
+  cursor: pointer;
+  margin-top: 50px;
+  padding-top: 13px;
+  animation: rotate 1.4s linear infinite;
+
+} 
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: scale(0.94);
+    transform: scale(0.94);
+  }
+
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.94);
+    transform: scale(0.94);
+  }
+}
 
 @media screen and (max-width: 1279px) { 
 
@@ -407,6 +450,21 @@ color: #FFFFFF;
       height: 46px; 
 
   } 
+  .form__heading{
+    font-size: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+} 
+@media screen and (max-width: 380px) { 
+
+  
+  .form__heading{
+    font-size: 22px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
 } 
 
