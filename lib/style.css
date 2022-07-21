@@ -154,9 +154,9 @@ body {
 .main__background_first {
   display: block;
   bottom: 10%;
-  right: -3vw;
+  right: 3vw;
   background: url(../images/girl\ 2.png) top/contain no-repeat;
-  width: 47vw;
+  width: 30vw;
   height: 36vw;
   z-index: 0;
 }
@@ -172,10 +172,10 @@ body {
 
 @media screen and (max-width: 1350px) { 
 
-  .main__background_first {
+  /* .main__background_first {
     width: 44vw;
     bottom: 20%;
-  }
+  } */
   .main__background_second{
   width: 38vw;
   bottom: 20%;
@@ -547,6 +547,12 @@ canvas{
   margin-top: 46px;
  
 }
+}
+.span-eur{
+  color: #009B3A;
+}
+.span-fris{
+  color: #FFCC29;
 }
 
 
