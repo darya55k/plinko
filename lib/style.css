@@ -281,6 +281,7 @@ color: #FFFFFF;
 } 
 
 .but{
+  margin-top: -20px;
   display: block;
     width: 200px;
     margin: 0 auto;
