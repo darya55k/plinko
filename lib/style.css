@@ -171,6 +171,9 @@ body {
   height: 36vw;
   z-index: 0;
 }
+.buttom{
+  margin-top: -20px;
+}
 
 @media screen and (max-width: 1350px) { 
 
@@ -258,7 +261,7 @@ color: #FFFFFF;
 
 .header__text{
   color: azure;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   text-align: center;
 }
 @media screen and (max-width: 720px) { 
