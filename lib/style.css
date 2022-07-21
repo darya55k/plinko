@@ -38,7 +38,7 @@ background: radial-gradient(circle, rgba(24,183,158,1) 7%, rgba(11,134,167,1) 55
 }
 .bucket-labels > div {
   /* z-index: 10; */
-  margin-top: 40px;
+  margin-top: 49px;
   min-width: 49.5px;
   text-align: center;
 }
@@ -515,6 +515,7 @@ body{
   }
   canvas { 
     width: 320px;
+    height: 235px;
   }
   .header__title{
     font-size: 30px;
