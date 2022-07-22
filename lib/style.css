@@ -38,7 +38,7 @@ background: radial-gradient(circle, rgba(24,183,158,1) 7%, rgba(11,134,167,1) 55
 }
 .bucket-labels > div {
   /* z-index: 10; */
-  margin-top: 50px;
+  margin-top: 44px;
   min-width: 49.5px;
   text-align: center;
 }
@@ -57,6 +57,7 @@ background: radial-gradient(circle, rgba(24,183,158,1) 7%, rgba(11,134,167,1) 55
 }
 
 .bucket-labels .score {
+  font-family: 'Montserrat';
   font-weight: bolder;
   font-size: 20px;
 }
@@ -124,7 +125,17 @@ margin: 0 auto;
 .kk{
   display: none;
 }
+a{
+  font-family: 'Montserrat';
+}
+p{
+  font-family: 'Montserrat';
+}
+h2{
+  font-family: 'Montserrat';
+}
 body {
+  
   background-image: url(../images/bground.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -141,7 +152,7 @@ body {
     /* background-position-x: 0px; */
     /* background-position: right; */
     display: block;
-    min-width: 360px;
+    
     
     
 }
@@ -172,7 +183,7 @@ body {
   z-index: 0;
 }
 .button{
-  margin-top: -20px;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 1350px) { 
@@ -230,6 +241,7 @@ color: #1B9DD9;
 margin: 0;
 }
 .header__subtitle{
+  line-height: 33px;
   font-style: normal;
 font-weight: 500;
 font-size: 30px;
@@ -405,6 +417,7 @@ backdrop-filter: blur(15px);
 
 } 
 .form__button { 
+  text-decoration: none;
   width: 74%;
   display: block;
   margin: 0 auto;
@@ -455,7 +468,7 @@ color: #FFFFFF;
 
       line-height: 17px; 
 
-      height: 46px; 
+      height: 35px; 
 
   } 
   .form__heading{
@@ -489,13 +502,13 @@ canvas{
 }
 @media screen and (max-width: 610px) { 
 body{
-  background-image: url(../images/MOBILE.png);
+  
 }
   canvas { 
     width: 480px;
   }
     .bucket-labels > div {
-      
+      margin-top: 47px;
       min-width: 24.5px;
       
 }
@@ -507,11 +520,10 @@ body{
     margin: 0 auto;
   }
   .main__background_second{
-    top: 30%;
+    display: none;
   }
   .main__background_first{
-    top: 30%;
-    right: 0vw;
+    display: none;
   }
   canvas { 
     width: 320px;
@@ -610,6 +622,40 @@ canvas{
 }
 .span-fris{
   color: #FFCC29;
+}
+@media screen and (max-width: 360px) { 
+  .header__logo{
+    background-image: url(../images/mob-logo.png);
+  }
+.main__text{
+  width: 260px;
+}
+  body{
+    min-width: none;
+  }
+  .main{
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  .ui .wrapper{
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  canvas{
+    width: 275px;
+    height: 196px;
+  }
+  .but{
+    width: 250px;
+  }
+  .bucket-labels .score {
+    
+    font-size: 15px;
+}
+.bucket-labels > div {
+  margin-top: 53px;
+  min-width: 24.5px;
+}
 }
 
 
