@@ -553,6 +553,27 @@ body{
  
 }
 }
+@media screen and (max-height: 668px) { 
+  .header__text {
+    padding-bottom: 2px;
+}
+.header__title {
+  font-size: 24px;
+}
+.header__subtitle {
+  line-height: 25px;
+}
+canvas{
+  height: 200px;
+}
+.but{
+  height: 29px;
+}
+.bucket-labels > div {
+  
+   margin-top: 53px;
+}
+}
 .span-eur{
   color: #009B3A;
 }
