@@ -38,7 +38,7 @@ background: radial-gradient(circle, rgba(24,183,158,1) 7%, rgba(11,134,167,1) 55
 }
 .bucket-labels > div {
   /* z-index: 10; */
-  margin-top: 47px;
+  margin-top: 50px;
   min-width: 49.5px;
   text-align: center;
 }
@@ -574,6 +574,37 @@ canvas{
    margin-top: 53px;
 }
 }
+
+@media screen and (max-height: 570px) {
+  .wrapper{
+    margin: 0;
+  } 
+  .header__text {
+    padding-bottom: 2px;
+}
+.header__title {
+  font-size: 22px;
+}
+.header__subtitle {
+  line-height: 22px;
+  font-size: 16px;
+}
+canvas{
+  height: 200px;
+}
+.but{
+  height: 29px;
+  margin-top: -20px;
+}
+.bucket-labels > div {
+  
+   margin-top: 53px;
+}
+.main__text{
+  padding-top: 13px;
+}
+}
+
 .span-eur{
   color: #009B3A;
 }
